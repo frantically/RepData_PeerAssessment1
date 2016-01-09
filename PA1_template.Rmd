@@ -102,6 +102,3 @@ imputedActivity$weekday <- factor(weekdays(as.Date(imputedActivity$date)) %in% c
 intervalByWeekday <- aggregate(steps ~ interval+weekday, data = imputedActivity, FUN = mean)
 ggplot(data = intervalByWeekday, aes(interval, steps)) + geom_line() + facet_grid(weekday ~ .)
 ```
-
-
-

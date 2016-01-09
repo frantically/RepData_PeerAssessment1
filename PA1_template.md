@@ -147,6 +147,3 @@ ggplot(data = intervalByWeekday, aes(interval, steps)) + geom_line() + facet_gri
 ```
 
 ![](PA1_template_files/figure-html/unnamed-chunk-10-1.png)\
-
-
-
